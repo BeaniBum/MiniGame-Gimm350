@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - SpawnManager
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
     - UnityEditor.ProBuilder.ProbuilderMoveTool
@@ -20,10 +18,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
-    - UnityEngine.XR.ARFoundation.ARPlane
-    - UnityEngine.XR.ARFoundation.ARPlaneManager
-    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
-    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.Management.Editor.dll:
@@ -45,7 +39,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/PlayScreen.unity:
+    Assets/Scenes/StartScreen.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -54,61 +48,39 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11332}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11714}
+      Script: {instanceID: 12154}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12922}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 13274}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 13542}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 13698}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 13730}
     - Class: 114
-      Script: {instanceID: 12942}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 14156}
     - Class: 114
-      Script: {instanceID: 13562}
-    - Class: 114
-      Script: {instanceID: 13718}
-    - Class: 114
-      Script: {instanceID: 13750}
-    - Class: 114
-      Script: {instanceID: 13990}
-    - Class: 114
-      Script: {instanceID: 14176}
-    - Class: 114
-      Script: {instanceID: 14304}
+      Script: {instanceID: 14284}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -827,5 +799,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/PlayScreen.unity
+  - Assets/Scenes/StartScreen.unity
   playerPath: C:/Users/joeyr/Documents/GitHub/MiniGame-Gimm350/ArTake2/test.apk
