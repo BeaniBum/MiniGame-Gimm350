@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/helloAr.unity
     guid: 9b9d1a614c52db34b9655d720aace8d3
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 441335aef128c3648b3007c6d6eba360
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: be2175cd06d60ea4b91634ed938083de,
       type: 2}
