@@ -69,7 +69,8 @@
     <Compile Include="Assets\Scripts\Block Code\BlockMethods.cs" />
     <Compile Include="Assets\Scripts\Block Code\GridData.cs" />
     <Compile Include="Assets\Scripts\Block Code\Rotation.cs" />
-    <Compile Include="Assets\Scripts\BttnManager.cs" />
+    <Compile Include="Assets\Scripts\BttnMangers\BttnManager.cs" />
+    <Compile Include="Assets\Scripts\BttnMangers\StartScreenBttnManager.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
@@ -656,6 +657,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/GitHub/MiniGame-Gimm350/ArTake2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/GitHub/MiniGame-Gimm350/ArTake2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>D:/GitHub/MiniGame-Gimm350/ArTake2/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
@@ -673,9 +677,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/GitHub/MiniGame-Gimm350/ArTake2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/GitHub/MiniGame-Gimm350/ArTake2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
