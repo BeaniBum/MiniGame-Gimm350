@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/helloAr.unity
     guid: 9b9d1a614c52db34b9655d720aace8d3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 441335aef128c3648b3007c6d6eba360
   - enabled: 1
