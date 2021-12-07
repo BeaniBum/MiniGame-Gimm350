@@ -6,19 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class BttnManager : MonoBehaviour
 {
-
- 
     public GameObject CreateButton;
-    public GameObject PlaceButton;
-    public GameObject DeleteButton;
-    public GameObject RotateButton;
-    public GameObject MoveButton;
     public GameObject CRATEBUTTONON;
-
     public GameObject MarbleButton;
     public GameObject MarbleBUTTONON;
-    public GameObject MarbleStart;
-    public GameObject MarbleReset;
+    public GameObject BlockMenu;
+  
     
 
     public bool createMode;
@@ -64,9 +57,13 @@ public class BttnManager : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 
-    public void MoveBlock()
+    public void BlockMenuOpen()
     {
-
+        BlockMenu.SetActive(true);
+    }
+    public void BlockMenuClose()
+    {
+        BlockMenu.SetActive(false);
     }
 
     public void RotateBlock()
@@ -74,7 +71,7 @@ public class BttnManager : MonoBehaviour
 
     }
 
-    public void PlaceBlock()
+    public void SelectBlock()
     {
 
     }
