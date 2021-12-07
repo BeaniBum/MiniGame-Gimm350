@@ -62,15 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Block Code\Block.cs" />
-    <Compile Include="Assets\Scripts\Block Code\BlockDriver.cs" />
-    <Compile Include="Assets\Scripts\Block Code\BlockMethods.cs" />
-    <Compile Include="Assets\Scripts\Block Code\GridData.cs" />
-    <Compile Include="Assets\Scripts\Block Code\Rotation.cs" />
-    <Compile Include="Assets\Scripts\Manager.cs" />
-    <Compile Include="Assets\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\SpawnManager.cs" />
-    <Compile Include="Assets\Scripts\TapToPlace.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Block Code\Block.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Block Code\BlockDriver.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Block Code\BlockMethods.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Block Code\GridData.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Block Code\Rotation.cs" />
+    <Compile Include="Assets\Prefab\Scripts\Manager.cs" />
+    <Compile Include="Assets\Prefab\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Prefab\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Prefab\Scripts\TapToPlace.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
