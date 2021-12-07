@@ -68,7 +68,7 @@ public class BttnManager : MonoBehaviour
 
     public void RotateBlock()
     {
-
+        
     }
 
     public void SelectBlock()

@@ -29,6 +29,7 @@ public class SpawnManager : MonoBehaviour{
 
         if(m_RaycastManager.Raycast(Input.GetTouch(0).position,m_Hits))
         {
+            //Spawns
             if(Input.GetTouch(0).phase == TouchPhase.Began && spawnedObject==null)
             {
                 if(Physics.Raycast(ray, out hit))
@@ -43,7 +44,7 @@ public class SpawnManager : MonoBehaviour{
                     }
                 }
             }
-
+            //Moves
             else if(Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject !=null)
             {
                 spawnedObject.transform.position = m_Hits[0].pose.position;
