@@ -41,6 +41,15 @@
      <Compile Include="Assets\Scripts\Block Code\BlockMethods.cs" />
      <Compile Include="Assets\Scripts\Block Code\GridData.cs" />
      <Compile Include="Assets\Scripts\Block Code\Rotation.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\DeadbeatBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\EndBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\GayBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\HolyBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\StartBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\StraightBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\TurnBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockBtnCode\UTurnBlock.cs" />
+     <Compile Include="Assets\Scripts\BttnMangers\BlockSwitch.cs" />
      <Compile Include="Assets\Scripts\BttnMangers\BttnManager.cs" />
      <Compile Include="Assets\Scripts\BttnMangers\StartScreenBttnManager.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />

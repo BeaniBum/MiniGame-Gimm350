@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
+
     public List<Block> blockPrefabs;
     public List <PlacedBlock> grid = new List<PlacedBlock>();
+    public int choice;
 
     public void Start()
     {
-        AddBlock(1, new Vector3Int(0, 0, 0));
+        //AddBlock(1, new Vector3Int(0, 0, 0));
         
     }
     public void AddBlock(int choice, Vector3Int pos )
     {
+        Debug.Log("I chose " + choice);
         Block instBlock = Instantiate(blockPrefabs[choice]);
         
         PlacedBlock data = new PlacedBlock(instBlock,pos);
