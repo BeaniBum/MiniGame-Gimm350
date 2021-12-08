@@ -12,9 +12,6 @@ public class Manager : MonoBehaviour
     public void Start()
     {
         //AddBlock(1, new Vector3Int(0, 0, 0));
-        GameObject spawner = GameObject.Find("SpawnManager");
-        SpawnManager spawn = spawner.GetComponent<SpawnManager>();
-        
         
     }
     public void AddBlock(int choice, Vector3Int pos )

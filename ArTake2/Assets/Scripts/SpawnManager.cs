@@ -9,7 +9,6 @@ public class SpawnManager : MonoBehaviour{
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     [SerializeField]
     GameObject spawnablePrefab;
-    public List<GameObject> blocks;
 
     Camera arCam;
     GameObject spawnedObject;
@@ -19,9 +18,6 @@ public class SpawnManager : MonoBehaviour{
     void Start(){
         spawnedObject = null;
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
-        GameObject managerObject = GameObject.Find("Manager");
-        Manager managerChoice = managerObject.GetComponent<Manager>();
-        //blocks = managerChoice.blockPrefabs;
     }
 
     // Update is called once per frame
@@ -61,10 +57,6 @@ public class SpawnManager : MonoBehaviour{
     }
 
     private void SpawnPrefab(Vector3 spawnPosition){
-        GameObject managerObject = GameObject.Find("Manager");
-        Manager managerChoice = managerObject.GetComponent<Manager>();
-        int choice = managerChoice.choice;
-        spawnedObject = Instantiate(blocks[choice], spawnPosition, Quaternion.identity);
-        Debug.Log("I spawned "+ blocks[choice] +"!");
+        spawnedObject = Instantiate(spawnablePrefab, spawnPosition, Quaternion.identity);
     }
 }
