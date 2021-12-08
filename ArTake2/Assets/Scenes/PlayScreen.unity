@@ -2282,6 +2282,8 @@ MonoBehaviour:
   m_RaycastManager: {fileID: 2067489115}
   spawnablePrefab: {fileID: 7349411238435172949, guid: 6220e8cdfc2654b4fad8747a68adc24b,
     type: 3}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   blocks:
   - {fileID: 9154192831311362726, guid: 0be531c62933a0c428813fb4606f3ee6, type: 3}
   - {fileID: 9042491369622864131, guid: b64413a292326974c800c28282908f36, type: 3}
@@ -2291,6 +2293,12 @@ MonoBehaviour:
   - {fileID: 3024281092718310585, guid: 77b202841e2a53743828d2883be2aeec, type: 3}
   - {fileID: 7598005716610900878, guid: 33011634b387afb4ebd613cc690cedd0, type: 3}
   - {fileID: 9154192831311362726, guid: c75cf9ca38fafa240bd2843b882d8ed8, type: 3}
+=======
+  gridSize: {x: 0.1, y: 0.1, z: 0.1}
+>>>>>>> Stashed changes
+=======
+  gridSize: {x: 0.1, y: 0.1, z: 0.1}
+>>>>>>> Stashed changes
 --- !u!4 &1212724254
 Transform:
   m_ObjectHideFlags: 0
