@@ -9,6 +9,6 @@ public class GayBlock : MonoBehaviour
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 1;
         Debug.Log("Gay Block Selected!");
-        managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
+        //managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
     }
 }

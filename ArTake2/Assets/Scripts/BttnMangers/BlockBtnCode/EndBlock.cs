@@ -9,6 +9,6 @@ public class EndBlock : MonoBehaviour
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 7;
         Debug.Log("End Block Selected!");
-        managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
+        //managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
     }
 }

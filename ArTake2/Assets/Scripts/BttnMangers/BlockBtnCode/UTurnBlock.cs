@@ -9,6 +9,6 @@ public class UTurnBlock : MonoBehaviour
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 2;
         Debug.Log("UTurn Block Selected!");
-        managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
+        //managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
     }
 }

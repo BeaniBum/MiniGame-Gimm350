@@ -9,6 +9,6 @@ public class TurnBlock : MonoBehaviour
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 3;
         Debug.Log("Turn Block Selected!");
-        managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
+        //managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
     }
 }

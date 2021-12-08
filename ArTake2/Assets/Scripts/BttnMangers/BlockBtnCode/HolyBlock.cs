@@ -9,6 +9,6 @@ public class HolyBlock : MonoBehaviour
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 6;
         Debug.Log("Holy Block Selected!");
-        managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
+        //managerChoice.AddBlock(managerChoice.choice, new Vector3Int(0,0,0));
     }
 }

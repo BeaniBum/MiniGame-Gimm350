@@ -8,6 +8,7 @@ public class Manager : MonoBehaviour
     public List<Block> blockPrefabs;
     public List <PlacedBlock> grid = new List<PlacedBlock>();
     public int choice;
+    public Vector3Int pos = new Vector3Int(0,0,0);
 
     public void Start()
     {
