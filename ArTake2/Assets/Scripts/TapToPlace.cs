@@ -5,6 +5,7 @@ using UnityEngine.XR.ARSubsystems;
 
 public class TapToPlace : MonoBehaviour
 {
+     public List<Block> blockPrefabs;
     //Remove all reference points created
     public void RemoveAllReferencePoints()
     {

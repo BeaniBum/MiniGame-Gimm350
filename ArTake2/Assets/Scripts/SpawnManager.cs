@@ -12,12 +12,15 @@ public class SpawnManager : MonoBehaviour{
 
     Camera arCam;
     GameObject spawnedObject;
+    public List<GameObject> blocks;
 
 
     // Start is called before the first frame update
     void Start(){
         spawnedObject = null;
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();
+        GameObject managerObject = GameObject.Find("Manager");
+        Manager managerChoice = managerObject.GetComponent<Manager>();
     }
 
     // Update is called once per frame
@@ -57,6 +60,11 @@ public class SpawnManager : MonoBehaviour{
     }
 
     private void SpawnPrefab(Vector3 spawnPosition){
-        spawnedObject = Instantiate(spawnablePrefab, spawnPosition, Quaternion.identity);
+        GameObject managerObject = GameObject.Find("Manager");
+        Manager managerChoice = managerObject.GetComponent<Manager>();
+        int choice = managerChoice.choice;
+        spawnedObject = Instantiate(blocks[choice], spawnPosition, Quaternion.identity);
+        Debug.Log("I spawned "+ blocks[choice] +"!");
     }
 }
+
