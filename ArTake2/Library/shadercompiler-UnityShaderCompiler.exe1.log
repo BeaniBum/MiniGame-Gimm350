@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Base path: 'D:/Programs/2019.4.13f1/Editor/Data', plugins path 'D:/Programs/2019.4.13f1/Editor/Data/PlaybackEngines'
 =======
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/PlaybackEngines'
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/PlaybackEngines'
+>>>>>>> parent of a259c55 (notes in the comments)
 Cmd: initializeCompiler

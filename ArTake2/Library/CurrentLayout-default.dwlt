@@ -18,10 +18,14 @@ MonoBehaviour:
     y: 43.2
     width: 1536
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 780.8
 =======
     height: 820.8
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 820.8
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 3}
@@ -73,7 +77,11 @@ MonoBehaviour:
     y: 0
     width: 1536
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 781
+=======
+    height: 821
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MinSize: {x: 875, y: 542}
 =======
     height: 821
@@ -119,10 +127,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 761
 =======
     y: 801
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    y: 801
+>>>>>>> parent of a259c55 (notes in the comments)
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -147,14 +159,19 @@ MonoBehaviour:
     y: 30
     width: 1536
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 731
 =======
     height: 771
 >>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 679, y: 492}
+=======
+    height: 771
+  m_MinSize: {x: 678, y: 492}
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 144
+  controlID: 134
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,14 +193,19 @@ MonoBehaviour:
     y: 0
     width: 1536
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 731
 =======
     height: 771
 >>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 679, y: 492}
+=======
+    height: 771
+  m_MinSize: {x: 678, y: 492}
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 145
+  controlID: 135
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,15 +227,20 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
     width: 1061
+<<<<<<< HEAD
     height: 731
 =======
     width: 1059
     height: 771
 >>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 403, y: 492}
+=======
+    height: 771
+  m_MinSize: {x: 402, y: 492}
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 83
+  controlID: 90
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,6 +262,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
     width: 1061
+<<<<<<< HEAD
     height: 460
 =======
     width: 1059
@@ -242,8 +270,13 @@ MonoBehaviour:
 >>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
+=======
+    height: 485
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+>>>>>>> parent of a259c55 (notes in the comments)
   vertical: 0
-  controlID: 52
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,6 +296,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
     width: 345
+<<<<<<< HEAD
     height: 460
 =======
     width: 348
@@ -270,6 +304,11 @@ MonoBehaviour:
 >>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    height: 485
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -294,6 +333,7 @@ MonoBehaviour:
     x: 345
     y: 0
     width: 716
+<<<<<<< HEAD
     height: 460
 =======
     x: 348
@@ -301,6 +341,9 @@ MonoBehaviour:
     width: 711
     height: 485
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 485
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -327,6 +370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 460
     width: 1061
     height: 271
@@ -335,6 +379,11 @@ MonoBehaviour:
     width: 1059
     height: 286
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    y: 485
+    width: 1061
+    height: 286
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -362,6 +411,7 @@ MonoBehaviour:
     x: 1061
     y: 0
     width: 475
+<<<<<<< HEAD
     height: 731
 =======
     x: 1059
@@ -369,6 +419,9 @@ MonoBehaviour:
     width: 477
     height: 771
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 771
+>>>>>>> parent of a259c55 (notes in the comments)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -433,12 +486,17 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_HBaseRangeMin: -357
     m_HBaseRangeMax: 357
+<<<<<<< HEAD
 =======
     m_HBaseRangeMin: -354.5
     m_HBaseRangeMax: 354.5
 >>>>>>> parent of 85d4026 (put things in a gridish)
     m_VBaseRangeMin: -232
     m_VBaseRangeMax: 232
+=======
+    m_VBaseRangeMin: -221.5
+    m_VBaseRangeMax: 221.5
+>>>>>>> parent of a259c55 (notes in the comments)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -455,11 +513,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 714
-      height: 464
+      height: 443
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 357, y: 232}
+    m_Translation: {x: 357, y: 221.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -467,9 +525,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -357
-      y: -232
+      y: -221.5
       width: 714
-      height: 464
+      height: 443
     m_MinimalGUI: 1
   m_defaultScale: 1
 <<<<<<< HEAD
@@ -511,15 +569,20 @@ MonoBehaviour:
     y: 73.6
 <<<<<<< HEAD
     width: 344
+<<<<<<< HEAD
     height: 439
 =======
     width: 347
     height: 464
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 464
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: f42e0000
       m_LastClickedID: 0
@@ -529,6 +592,11 @@ MonoBehaviour:
       m_LastClickedID: 15088
       m_ExpandedIDs: 62fbffff
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+      m_SelectedIDs: 562c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 62fbffffbe3a0000
+>>>>>>> parent of a259c55 (notes in the comments)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -581,6 +649,7 @@ MonoBehaviour:
     x: 344.80002
     y: 73.6
     width: 714
+<<<<<<< HEAD
     height: 439
 =======
     x: 348
@@ -588,6 +657,9 @@ MonoBehaviour:
     width: 709
     height: 464
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 464
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 407a7c64f593e0d45b3a8abfd69fc80c
@@ -649,7 +721,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.016426265, y: -0.09434685, z: 0.0015544388, w: 0.9954087}
     speed: 2
-    m_Value: {x: -0.016426265, y: 0.09434684, z: -0.0015544388, w: -0.9954087}
+    m_Value: {x: 0.016426167, y: -0.09434629, z: 0.0015544295, w: 0.99540275}
   m_Size:
     m_Target: 282.9982
     speed: 2
@@ -735,6 +807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 533.60004
     width: 1060
     height: 250
@@ -743,6 +816,11 @@ MonoBehaviour:
     width: 1058
     height: 265
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    y: 558.4
+    width: 1060
+    height: 265
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -764,6 +842,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 64
+<<<<<<< HEAD
   m_LastProjectPath: D:\GitHub\MiniGame-Gimm350\ArTake2
 =======
     - Assets/3D Models/BasicBlocks
@@ -774,10 +853,14 @@ MonoBehaviour:
   m_LastFoldersGridSize: 64
   m_LastProjectPath: C:\Users\anime\Documents\GitHub\MiniGame-Gimm350-ThisOne\GIMM350Minigame\ArTake2
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+  m_LastProjectPath: C:\Users\anime\Documents\GitHub\MiniGame-Gimm350-ThisOne\GIMM350Minigame\ArTake2
+>>>>>>> parent of a259c55 (notes in the comments)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 563e0000
     m_LastClickedID: 15958
@@ -787,6 +870,11 @@ MonoBehaviour:
     m_LastClickedID: 15690
     m_ExpandedIDs: 00000000d23c0000d43c00003c3d000000ca9a3b
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    m_SelectedIDs: a23c0000
+    m_LastClickedID: 15522
+    m_ExpandedIDs: 00000000323c0000343c0000a23c0000b43c000000ca9a3b
+>>>>>>> parent of a259c55 (notes in the comments)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,10 +903,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e83d0000ea3d0000
 =======
     m_ExpandedIDs: 00000000d23c0000d43c0000
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    m_ExpandedIDs: 00000000323c0000343c0000
+>>>>>>> parent of a259c55 (notes in the comments)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -933,6 +1025,7 @@ MonoBehaviour:
     x: 1060.8
     y: 73.6
     width: 474
+<<<<<<< HEAD
     height: 710
 =======
     x: 1059.2001
@@ -940,6 +1033,9 @@ MonoBehaviour:
     width: 476
     height: 750
 >>>>>>> parent of 85d4026 (put things in a gridish)
+=======
+    height: 750
+>>>>>>> parent of a259c55 (notes in the comments)
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
