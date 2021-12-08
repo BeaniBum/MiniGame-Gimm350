@@ -11,11 +11,12 @@ public class BttnManager : MonoBehaviour
     public GameObject MarbleButton;
     public GameObject MarbleBUTTONON;
     public GameObject BlockMenu;
-  
+    
     
 
     public bool createMode;
     public bool marbleMode;
+    public bool dropMarble;
  
 
     public void CreateSelected()
@@ -82,7 +83,7 @@ public class BttnManager : MonoBehaviour
 
     public void DropMarble()
     {
-
+        dropMarble = true;
     }
 
     public void ResetMarble()

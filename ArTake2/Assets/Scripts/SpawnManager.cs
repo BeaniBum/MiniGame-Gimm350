@@ -41,6 +41,14 @@ public class SpawnManager : MonoBehaviour{
                     {
                         spawnedObject=hit.collider.gameObject;
                     }
+                    if (hit.collider.gameObject.tag == "StartSpawn")
+                    {
+                        spawnedObject = hit.collider.gameObject;
+                    }
+                    if (hit.collider.gameObject.tag == "EndSpawn")
+                    {
+                        spawnedObject = hit.collider.gameObject;
+                    }
                     else
                     {
                         SpawnPrefab(m_Hits[0].pose.position);
