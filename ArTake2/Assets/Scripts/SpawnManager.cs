@@ -9,17 +9,7 @@ public class SpawnManager : MonoBehaviour{
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     [SerializeField]
     GameObject spawnablePrefab;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     public List<GameObject> blocks;
-=======
-    [SerializeField]
-    private Vector3 gridSize = default;
->>>>>>> Stashed changes
-=======
-    [SerializeField]
-    private Vector3 gridSize = default;
->>>>>>> Stashed changes
 
     Camera arCam;
     GameObject spawnedObject;
@@ -41,7 +31,6 @@ public class SpawnManager : MonoBehaviour{
         RaycastHit hit;
         Ray ray = arCam.ScreenPointToRay(Input.GetTouch(0).position);
 
-        //takes a touch from the screen and its position in x,y on screen
         if(m_RaycastManager.Raycast(Input.GetTouch(0).position,m_Hits))
         {
             //Spawns
@@ -63,11 +52,6 @@ public class SpawnManager : MonoBehaviour{
             else if(Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject !=null)
             {
                 spawnedObject.transform.position = m_Hits[0].pose.position;
-                var position = new Vector3(
-                    Mathf.Round(spawnedObject.transform.position.x / this.gridSize.x) * this.gridSize.x,
-                    spawnedObject.transform.position.y,
-                    Mathf.Round(spawnedObject.transform.position.z / this.gridSize.z) * this.gridSize.z);
-                spawnedObject.transform.position = position;
             }
             if(Input.GetTouch(0).phase == TouchPhase.Ended){
                 spawnedObject = null;
@@ -75,30 +59,12 @@ public class SpawnManager : MonoBehaviour{
         }
         
     }
-    
+
     private void SpawnPrefab(Vector3 spawnPosition){
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         GameObject managerObject = GameObject.Find("Manager");
         Manager managerChoice = managerObject.GetComponent<Manager>();
         int choice = managerChoice.choice;
         spawnedObject = Instantiate(blocks[choice], spawnPosition, Quaternion.identity);
         Debug.Log("I spawned "+ blocks[choice] +"!");
-=======
-=======
->>>>>>> Stashed changes
-           spawnPosition = new Vector3(
-            Mathf.Round(spawnPosition.x / this.gridSize.x) * this.gridSize.x,
-            spawnPosition.y,
-            Mathf.Round(spawnPosition.z / this.gridSize.z) * this.gridSize.z
-            );
-            spawnedObject = Instantiate(spawnablePrefab, spawnPosition, Quaternion.identity);
-        
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
-
-   
 }
