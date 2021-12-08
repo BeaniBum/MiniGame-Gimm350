@@ -5,6 +5,7 @@ using UnityEngine.XR.ARSubsystems;
 
 public class TapToPlace : MonoBehaviour
 {
+    public List<Block> blockPrefabs;
     //Remove all reference points created
     public void RemoveAllReferencePoints()
     {
@@ -22,6 +23,10 @@ public class TapToPlace : MonoBehaviour
         m_ReferencePointManager = GetComponent<ARReferencePointManager>();
         m_PlaneManager = GetComponent<ARPlaneManager>();
         m_ReferencePoint = new List<ARReferencePoint>();
+
+        GameObject managerObject = GameObject.Find("Manager");
+        Manager managerChoice = managerObject.GetComponent<Manager>(); 
+        blockPrefabs = managerChoice.blockPrefabs;
     }
 
 
