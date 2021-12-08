@@ -17,7 +17,11 @@ MonoBehaviour:
     x: 0
     y: 43.2
     width: 1536
+<<<<<<< HEAD
     height: 780.8
+=======
+    height: 820.8
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 3}
@@ -68,8 +72,13 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
+<<<<<<< HEAD
     height: 781
   m_MinSize: {x: 875, y: 542}
+=======
+    height: 821
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -109,7 +118,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 761
+=======
+    y: 801
+>>>>>>> parent of 85d4026 (put things in a gridish)
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -133,7 +146,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1536
+<<<<<<< HEAD
     height: 731
+=======
+    height: 771
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
@@ -158,7 +175,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
+<<<<<<< HEAD
     height: 731
+=======
+    height: 771
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
@@ -182,8 +203,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1061
     height: 731
+=======
+    width: 1059
+    height: 771
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
@@ -207,8 +233,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1061
     height: 460
+=======
+    width: 1059
+    height: 485
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
@@ -230,8 +261,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 345
     height: 460
+=======
+    width: 348
+    height: 485
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -254,10 +290,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 345
     y: 0
     width: 716
     height: 460
+=======
+    x: 348
+    y: 0
+    width: 711
+    height: 485
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -283,9 +326,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 460
     width: 1061
     height: 271
+=======
+    y: 485
+    width: 1059
+    height: 286
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -309,10 +358,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1061
     y: 0
     width: 475
     height: 731
+=======
+    x: 1059
+    y: 0
+    width: 477
+    height: 771
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -337,7 +393,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -370,8 +430,13 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -357
     m_HBaseRangeMax: 357
+=======
+    m_HBaseRangeMin: -354.5
+    m_HBaseRangeMax: 354.5
+>>>>>>> parent of 85d4026 (put things in a gridish)
     m_VBaseRangeMin: -232
     m_VBaseRangeMax: 232
     m_HAllowExceedBaseRangeMin: 1
@@ -407,7 +472,11 @@ MonoBehaviour:
       height: 464
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 892.5, y: 580}
+=======
+  m_LastWindowPixelSize: {x: 709, y: 464}
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -429,22 +498,37 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 73.6
+<<<<<<< HEAD
     width: 344
     height: 439
+=======
+    width: 347
+    height: 464
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: f42e0000
       m_LastClickedID: 0
       m_ExpandedIDs: b8f7ffff
+=======
+      m_SelectedIDs: f03a0000
+      m_LastClickedID: 15088
+      m_ExpandedIDs: 62fbffff
+>>>>>>> parent of 85d4026 (put things in a gridish)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -484,15 +568,26 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< HEAD
     m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 344.80002
     y: 73.6
     width: 714
     height: 439
+=======
+    x: 348
+    y: 73.6
+    width: 709
+    height: 464
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 407a7c64f593e0d45b3a8abfd69fc80c
@@ -599,7 +694,11 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
+<<<<<<< HEAD
     m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -625,15 +724,25 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
+<<<<<<< HEAD
     m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 533.60004
     width: 1060
     height: 250
+=======
+    y: 558.4
+    width: 1058
+    height: 265
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -648,6 +757,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -655,13 +765,28 @@ MonoBehaviour:
   - Assets/Scripts
   m_LastFoldersGridSize: 64
   m_LastProjectPath: D:\GitHub\MiniGame-Gimm350\ArTake2
+=======
+    - Assets/3D Models/BasicBlocks
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/3D Models/BasicBlocks
+  m_LastFoldersGridSize: 64
+  m_LastProjectPath: C:\Users\anime\Documents\GitHub\MiniGame-Gimm350-ThisOne\GIMM350Minigame\ArTake2
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 563e0000
     m_LastClickedID: 15958
     m_ExpandedIDs: 00000000e83d0000ea3d0000563e000000ca9a3b
+=======
+    m_SelectedIDs: 4a3d0000
+    m_LastClickedID: 15690
+    m_ExpandedIDs: 00000000d23c0000d43c00003c3d000000ca9a3b
+>>>>>>> parent of 85d4026 (put things in a gridish)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -689,7 +814,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e83d0000ea3d0000
+=======
+    m_ExpandedIDs: 00000000d23c0000d43c0000
+>>>>>>> parent of 85d4026 (put things in a gridish)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -761,7 +890,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
+<<<<<<< HEAD
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -787,15 +920,26 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< HEAD
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of 85d4026 (put things in a gridish)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1060.8
     y: 73.6
     width: 474
     height: 710
+=======
+    x: 1059.2001
+    y: 73.6
+    width: 476
+    height: 750
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -821,7 +965,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_MinSize: {x: 136, y: 28}
+=======
+  m_MinSize: {x: 129, y: 28}
+>>>>>>> parent of 85d4026 (put things in a gridish)
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder
