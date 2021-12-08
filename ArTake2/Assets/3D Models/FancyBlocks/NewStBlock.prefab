@@ -11663,8 +11663,8 @@ GameObject:
   - component: {fileID: 4911757085085595560}
   - component: {fileID: 8201044381439164274}
   m_Layer: 0
-  m_Name: StraightBlockNew
-  m_TagString: Untagged
+  m_Name: NewStBlock
+  m_TagString: Spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
