@@ -12,7 +12,7 @@ public class BttnManager : MonoBehaviour
     public GameObject MarbleBUTTONON;
     public GameObject BlockMenu;
     
-    
+    public AudioSource marbleSound;
 
     public bool createMode;
     public bool marbleMode;
@@ -83,6 +83,7 @@ public class BttnManager : MonoBehaviour
 
     public void DropMarble()
     {
+        marbleSound.Play();
         dropMarble = true;
     }
 

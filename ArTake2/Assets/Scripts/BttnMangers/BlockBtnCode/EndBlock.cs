@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class EndBlock : MonoBehaviour
 {
-     public void btnClicked(){
+    public AudioSource blockSound;
+    public void btnClicked()
+    {
+        blockSound.Play();
+
         GameObject managerObject = GameObject.Find("Manager");
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 7;

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class TurnBlock : MonoBehaviour
 {
-     public void btnClicked(){
+    public AudioSource blockSound;
+    public void btnClicked()
+    {
+        blockSound.Play();
         GameObject managerObject = GameObject.Find("Manager");
         Manager managerChoice = managerObject.GetComponent<Manager>();
         managerChoice.choice = 3;

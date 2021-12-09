@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MarbleCollision : MonoBehaviour
 {
-    Rigidbody marbleRig;
+    public Rigidbody marbleRig;
     public GameObject WinSprite;
     //if object tagged marble hits object tagged EndSpawn Call Win
     public void OnCollisionEnter(Collision collision)

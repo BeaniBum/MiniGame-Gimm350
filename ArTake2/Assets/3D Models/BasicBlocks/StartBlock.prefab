@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6d4f8e6d539aa4098733994f95171b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  marbleRig: {fileID: 9073275878175334375}
   WinSprite: {fileID: 893600424747018661, guid: e9b91821c063e7247899f3d62dd12ae7,
     type: 3}
 --- !u!1 &9154192831311362726
@@ -11755,6 +11756,12 @@ GameObject:
 --- !u!4 &9073275878175334371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1686080157543290272, guid: b53d4b7dbab442f418395016f34d1ca4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7677767301314185795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &9073275878175334375 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1686080157543290276, guid: b53d4b7dbab442f418395016f34d1ca4,
     type: 3}
   m_PrefabInstance: {fileID: 7677767301314185795}
   m_PrefabAsset: {fileID: 0}
