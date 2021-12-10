@@ -33,37 +33,39 @@ public class SpawnManager : MonoBehaviour{
 
         if(m_RaycastManager.Raycast(Input.GetTouch(0).position,m_Hits))
         {
-            //Spawns
-            if(Input.GetTouch(0).phase == TouchPhase.Began && spawnedObject==null)
-            {
-                if(Physics.Raycast(ray, out hit))
+            
+                //Spawns
+                if (Input.GetTouch(0).phase == TouchPhase.Began && spawnedObject == null)
                 {
-                    if (hit.collider.gameObject.tag=="Spawnable")
+                    if (Physics.Raycast(ray, out hit))
                     {
-                        spawnedObject=hit.collider.gameObject;
-                    }
-                    if (hit.collider.gameObject.tag == "StartSpawn")
-                    {
-                        spawnedObject = hit.collider.gameObject;
-                    }
-                    if (hit.collider.gameObject.tag == "EndSpawn")
-                    {
-                        spawnedObject = hit.collider.gameObject;
-                    }
-                    else
-                    {
-                        SpawnPrefab(m_Hits[0].pose.position);
+                        if (hit.collider.gameObject.tag == "Spawnable")
+                        {
+                            spawnedObject = hit.collider.gameObject;
+                        }
+                        if (hit.collider.gameObject.tag == "StartSpawn")
+                        {
+                            spawnedObject = hit.collider.gameObject;
+                        }
+                        if (hit.collider.gameObject.tag == "EndSpawn")
+                        {
+                            spawnedObject = hit.collider.gameObject;
+                        }
+                        else
+                        {
+                            SpawnPrefab(m_Hits[0].pose.position);
+                        }
                     }
                 }
-            }
-            //Moves
-            else if(Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject !=null)
-            {
-                spawnedObject.transform.position = m_Hits[0].pose.position;
-            }
-            if(Input.GetTouch(0).phase == TouchPhase.Ended){
-                spawnedObject = null;
-            }
+                //Moves
+                else if (Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject != null)
+                {
+                    spawnedObject.transform.position = m_Hits[0].pose.position;
+                }
+                if (Input.GetTouch(0).phase == TouchPhase.Ended)
+                {
+                    spawnedObject = null;
+                }
         }
         
     }

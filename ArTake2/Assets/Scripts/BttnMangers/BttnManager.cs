@@ -19,6 +19,7 @@ public class BttnManager : MonoBehaviour
     public bool createMode;
     public bool marbleMode;
     public bool dropMarble;
+    public bool menuActive;
 
     
 
@@ -64,10 +65,12 @@ public class BttnManager : MonoBehaviour
     public void BlockMenuOpen()
     {
         BlockMenu.SetActive(true);
+        menuActive = true;
     }
     public void BlockMenuClose()
     {
         BlockMenu.SetActive(false);
+        menuActive = true;
     }
 
     public void RotateBlock()
