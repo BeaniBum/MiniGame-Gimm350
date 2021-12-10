@@ -13,6 +13,7 @@ public class SpawnManager : MonoBehaviour{
     Camera arCam;
     GameObject spawnedObject;
     public List<GameObject> blocks;
+    public GameObject marble;
 
 
     // Start is called before the first frame update
@@ -72,7 +73,7 @@ public class SpawnManager : MonoBehaviour{
         Manager managerChoice = managerObject.GetComponent<Manager>();
         int choice = managerChoice.choice;
         spawnedObject = Instantiate(blocks[choice], spawnPosition, Quaternion.identity);
-        Debug.Log("I spawned "+ blocks[choice] +"!");
+        //Debug.Log("I spawned "+ blocks[choice] +"!");
     }
 }
 

@@ -11,13 +11,16 @@ public class BttnManager : MonoBehaviour
     public GameObject MarbleButton;
     public GameObject MarbleBUTTONON;
     public GameObject BlockMenu;
-    
-    public AudioSource marbleSound;
+    private GameObject Marble;
+
+
+    //public GameObject marble;
 
     public bool createMode;
     public bool marbleMode;
     public bool dropMarble;
-    public bool menuActive;
+
+    
 
     public void CreateSelected()
     {
@@ -61,12 +64,10 @@ public class BttnManager : MonoBehaviour
     public void BlockMenuOpen()
     {
         BlockMenu.SetActive(true);
-        menuActive = true;
     }
     public void BlockMenuClose()
     {
         BlockMenu.SetActive(false);
-        menuActive = false;
     }
 
     public void RotateBlock()
@@ -83,10 +84,15 @@ public class BttnManager : MonoBehaviour
 
     }
 
-    public void DropMarble()
+    public void DropBlock()
     {
-        marbleSound.Play();
-        dropMarble = true;
+         Marble = GameObject.FindWithTag("Marble");
+         AudioSource marbleSound = Marble.GetComponent<AudioSource>();
+         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+        
+         marbleSound.Play();
+         rb.useGravity = true;
+     
     }
 
     public void ResetMarble()

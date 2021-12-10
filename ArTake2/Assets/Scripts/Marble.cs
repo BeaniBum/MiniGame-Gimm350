@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MarbleCollision : MonoBehaviour
+public class Marble : MonoBehaviour
 {
+    //public GameObject marble;
     public Rigidbody marbleRig;
     public GameObject WinSprite;
+    public AudioSource marbleSound;
+
+    //public Marble (Rigidbody marbleRig, GameObject WinSprite, Audio )
     //if object tagged marble hits object tagged EndSpawn Call Win
-    public void OnCollisionEnter(Collision collision)
+   /* public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "EndSpawn")
         {
@@ -15,7 +19,7 @@ public class MarbleCollision : MonoBehaviour
         }
     }
 
-    public void DropMarble ()
+   /* public void DropMarble ()
     {
         GameObject canvas = GameObject.Find("Canvas");
         BttnManager bttnManager = canvas.GetComponent<BttnManager>();
@@ -25,5 +29,5 @@ public class MarbleCollision : MonoBehaviour
             marbleRig.constraints = RigidbodyConstraints.None;
         }
 
-    }
+    }*/
 }
