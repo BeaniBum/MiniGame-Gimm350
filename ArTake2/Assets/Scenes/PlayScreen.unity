@@ -4164,10 +4164,10 @@ MonoBehaviour:
   MarbleButton: {fileID: 571969653}
   MarbleBUTTONON: {fileID: 804278738}
   BlockMenu: {fileID: 599126354}
-  marbleSound: {fileID: 2035453708}
   createMode: 0
   marbleMode: 0
   dropMarble: 0
+  reset: 0
 --- !u!1 &2067489112
 GameObject:
   m_ObjectHideFlags: 0

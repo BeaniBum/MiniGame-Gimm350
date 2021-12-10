@@ -6,6 +6,12 @@ public class MarbleCollision : MonoBehaviour
 {
     public Rigidbody marbleRig;
     public GameObject WinSprite;
+    public GameObject canvas;
+    public BttnManager bttnManager;
+    public Vector3 startPosition,startVelocity;
+
+
+    // BttnManager bttn;
     //if object tagged marble hits object tagged EndSpawn Call Win
     public void OnCollisionEnter(Collision collision)
     {
@@ -14,16 +20,41 @@ public class MarbleCollision : MonoBehaviour
             WinSprite.SetActive(true);
         }
     }
-
-    public void DropMarble ()
+    public void Start()
     {
-        GameObject canvas = GameObject.Find("Canvas");
-        BttnManager bttnManager = canvas.GetComponent<BttnManager>();
-
-        if (bttnManager.dropMarble)
+        startPosition = this.transform.position;
+        startVelocity = new Vector3(0f,0f,0f);
+        canvas = GameObject.Find("Canvas");
+        bttnManager = canvas.GetComponent<BttnManager>();
+        
+}
+    public void Update()
+    {
+        
+        if(bttnManager.dropMarble == true)
         {
-            marbleRig.constraints = RigidbodyConstraints.None;
+            DropMarble();
         }
 
+        if (bttnManager.reset == true)
+        {
+            ResetMarble();
+        }
+
+
+
+    }
+    public void DropMarble ()
+    {
+        marbleRig.useGravity = true;
+
+    }
+    public void ResetMarble()
+    {
+        this.transform.position = startPosition;
+        this.marbleRig.velocity = startVelocity;
+        marbleRig.useGravity = false;
+        bttnManager.dropMarble = false;
+        bttnManager.reset = false;
     }
 }

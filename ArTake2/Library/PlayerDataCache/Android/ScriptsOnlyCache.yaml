@@ -15,8 +15,6 @@ ScriptsOnlyBuild:
     - StraightBlock
     - TurnBlock
     - UTurnBlock
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.ProBuilderMeshEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.Rider.Editor.dll:
@@ -97,69 +95,69 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 12120}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 12122}
     - Class: 114
-      Script: {instanceID: 12040}
+      Script: {instanceID: 12200}
     - Class: 114
-      Script: {instanceID: 12042}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12118}
+      Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12236}
+      Script: {instanceID: 12396}
     - Class: 114
-      Script: {instanceID: 12274}
+      Script: {instanceID: 12434}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12446}
     - Class: 114
-      Script: {instanceID: 12340}
+      Script: {instanceID: 12500}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12518}
     - Class: 114
-      Script: {instanceID: 12372}
+      Script: {instanceID: 12532}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13234}
+      Script: {instanceID: 13394}
     - Class: 114
-      Script: {instanceID: 13410}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 13436}
+      Script: {instanceID: 13596}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13866}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13938}
     - Class: 114
-      Script: {instanceID: 13806}
+      Script: {instanceID: 13964}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 14032}
     - Class: 114
-      Script: {instanceID: 13878}
+      Script: {instanceID: 14036}
     - Class: 114
-      Script: {instanceID: 13912}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14174}
+      Script: {instanceID: 14332}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 14516}
     - Class: 114
-      Script: {instanceID: 14370}
+      Script: {instanceID: 14528}
     - Class: 114
-      Script: {instanceID: 14500}
+      Script: {instanceID: 14658}
     - Class: 114
-      Script: {instanceID: 14592}
+      Script: {instanceID: 14750}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -202,29 +200,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 12304}
+      Script: {instanceID: 12464}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12518}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13436}
+      Script: {instanceID: 13596}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 14032}
     - Class: 114
-      Script: {instanceID: 14156}
-    - Class: 114
-      Script: {instanceID: 14342}
+      Script: {instanceID: 14314}
     - Class: 114
       Script: {instanceID: 14500}
+    - Class: 114
+      Script: {instanceID: 14658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -430,7 +428,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 3251b788617f3f445566bda8df526977
+      Hash: a5d08f534fd0999295c5b6d14233d927
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BttnManager
@@ -1096,7 +1094,7 @@ ScriptsOnlyBuild:
     className: VertexShakeA
   - hash:
       serializedVersion: 2
-      Hash: b0b7120e6ddfef7bba7267156f518156
+      Hash: d460d8402773ac7c2504cd291d90306c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MarbleCollision

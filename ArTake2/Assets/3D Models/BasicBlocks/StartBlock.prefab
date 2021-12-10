@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &254945683004731854
+--- !u!114 &846004818698556893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,6 +15,10 @@ MonoBehaviour:
   marbleRig: {fileID: 9073275878175334375}
   WinSprite: {fileID: 893600424747018661, guid: e9b91821c063e7247899f3d62dd12ae7,
     type: 3}
+  canvas: {fileID: 0}
+  bttnManager: {fileID: 0}
+  startPosition: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
 --- !u!1 &9154192831311362726
 GameObject:
   m_ObjectHideFlags: 0
@@ -11678,7 +11682,7 @@ PrefabInstance:
     - target: {fileID: 1686080157543290272, guid: b53d4b7dbab442f418395016f34d1ca4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.564
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1686080157543290272, guid: b53d4b7dbab442f418395016f34d1ca4,
         type: 3}
@@ -11733,7 +11737,12 @@ PrefabInstance:
     - target: {fileID: 1686080157543290276, guid: b53d4b7dbab442f418395016f34d1ca4,
         type: 3}
       propertyPath: m_Constraints
-      value: 14
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686080157543290276, guid: b53d4b7dbab442f418395016f34d1ca4,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1686080157543290279, guid: b53d4b7dbab442f418395016f34d1ca4,
         type: 3}
