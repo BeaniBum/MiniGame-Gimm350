@@ -993,7 +993,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 80031396}
-  - component: {fileID: 80031395}
   - component: {fileID: 80031397}
   m_Layer: 0
   m_Name: Manager
@@ -1002,29 +1001,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &80031395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80031394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bbb23730c11bf54b8d8c49635477ee2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blockPrefabs:
-  - {fileID: 1988375801051897895, guid: c65eb1b26e0d5f54889d8b846e87d2ab, type: 3}
-  - {fileID: 8076479389475026481, guid: 62329e61d7ab59c4e92bea70664139c8, type: 3}
-  - {fileID: 7975842571807701342, guid: a8b4f08c484376644855683109a0cea2, type: 3}
-  - {fileID: 8412082576808405359, guid: e0ad306e92ed63a459cee6f01962eebd, type: 3}
-  - {fileID: 8201044381439164274, guid: dd348bf4d40939449a5f6b8d76dc3587, type: 3}
-  - {fileID: 5468742856290950146, guid: 96b1de4956e386e4b9e9118d7d4116d8, type: 3}
-  - {fileID: 300622303736258668, guid: 18856c3700d2f1b44b1bcbe2f5260ddf, type: 3}
-  - {fileID: 3762624564206440938, guid: 07233db8d2e77dd4d9da889f962bddd7, type: 3}
-  choice: 0
-  pos: {x: 0, y: 0, z: 0}
 --- !u!4 &80031396
 Transform:
   m_ObjectHideFlags: 0
@@ -1888,6 +1864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd1b78fbcd8d84a49b61060916768528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  marble: {fileID: 0}
   blockSound: {fileID: 549875253}
 --- !u!82 &549875253
 AudioSource:
@@ -2975,6 +2952,7 @@ MonoBehaviour:
   - {fileID: 3024281092718310585, guid: 77b202841e2a53743828d2883be2aeec, type: 3}
   - {fileID: 7598005716610900878, guid: 33011634b387afb4ebd613cc690cedd0, type: 3}
   - {fileID: 9154192831311362726, guid: c75cf9ca38fafa240bd2843b882d8ed8, type: 3}
+  marble: {fileID: 0}
 --- !u!4 &1212724254
 Transform:
   m_ObjectHideFlags: 0
@@ -3897,7 +3875,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2064046142}
-        m_MethodName: DropMarble
+        m_MethodName: DropBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4055,7 +4033,7 @@ GameObject:
   - component: {fileID: 2064046142}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Marble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4164,7 +4142,6 @@ MonoBehaviour:
   MarbleButton: {fileID: 571969653}
   MarbleBUTTONON: {fileID: 804278738}
   BlockMenu: {fileID: 599126354}
-  marbleSound: {fileID: 2035453708}
   createMode: 0
   marbleMode: 0
   dropMarble: 0
